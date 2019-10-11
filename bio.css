@@ -7,14 +7,12 @@ body {
     font-size: '18px';
 }
 #header {
-    background-color: darkgoldenrod;
     text-align: center;
     height: 35px;
     top: 0;
     margin: 0;
     padding: 0;
 }
-
 .topnav {
     background-color: #333;
     color: white
@@ -26,6 +24,7 @@ body {
     background-color: rgb(43, 5, 5);
     text-align: center;
     padding: 14px 16px;
+    margin-bottom: 50px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -37,17 +36,21 @@ body {
     background-color: #4CAF50;
     color: white;    
 }
+#header, .nav, .section, .aside, .footer {
+     background-color: #ebebeb;
+}
 .content {
-    float: left;
+    clear: both;
+    width: 990px;
+    margin: auto;
 }
 /* Article */
 .section {
-    background-color: #ccc;
     float: left;
-    width: 50%;
-    height: 300px;   
+    width: 495px;
+    height: 350px;
 }
-.section h2 {
+.section h2, h3 {
     text-align: center;
     padding-top: 20px;
 }
@@ -58,15 +61,15 @@ body {
 /* Picture */
 .aside {
     float: left;
-    width: 300px;
-    height: 300px;
+    width: 495px;
+    height: 350px;
+    text-align: right;
 }
 .aside img {
     width: 300px;
-    height: 300px;
+    height: 350px;
 }
 .footer {
-    background-color: darkgoldenrod;
     height: 35px;
     position: fixed;
     left: 0;
